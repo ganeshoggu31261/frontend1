@@ -36,7 +36,6 @@ const Books = () => {
     }
   };
 
-  cart = ('')
 
   const handleBookClick = (bookId) => {
     const updatedBooks = books.filter(book => book._id !== bookId);

@@ -8,7 +8,7 @@ function Home() {
       <NavBar />
       <div className='home'>
         
-          <h1>Welcome to Our Online Book Store.</h1>
+          <h1>Welcome to Our Online Book Stoe.</h1>
         
       </div>
     </div>

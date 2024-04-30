@@ -3,29 +3,26 @@
   list-style: none;
   padding: 20px 0;
   margin: 0;
-  background-color: #3498db; /* Blue background color */
+  background-color: #29b929; /* Blue background color */
   display: flex;
   justify-content: space-between; 
   align-items: center; 
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-style: italic;
-  font-size: 24px;
+  font-size: 20px;
   height: 80px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
 } 
 
 /* Navbar Brand */
 .navbar-brand {
   color: #fff; /* White color */
   text-decoration: none;
+  font-size: 24px;
 }
 
 /* Navbar Heading */
 .navbar-heading {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-style: normal;
   font-size: 28px;
   margin: 0;
   color: #fff; /* White color */
@@ -44,19 +41,19 @@
 .navbar-links li a {
   color: #fff; /* White color */
   text-decoration: none;
-  transition: all 0.3s ease; /* Smooth transition */
+  transition: color 0.3s ease; /* Smooth transition for link color */
 }
 
 .navbar-links li a:hover {
-  color: #f39c12; /* Yellow color on hover */
+  color: #f1c40f; /* Yellow color on hover */
 }
 
 /* Main Heading */
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-style: normal;
-  font-size: 42px;
-  margin: 20px 0; /* Space below the heading */
-  color: #2c3e50; /* Dark blue color */
+  font-size: 36px;
+  margin: 20px 0; /* Space below and above the heading */
+  color: #34495e; /* Dark blue color */
+  text-align: center; /* Center align the heading */
 }
