@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Navbar3 from './Navbar3';
 import config from '../config';
-import './AdminUser.css'
+
 
 
 const AdminUser = () => {
