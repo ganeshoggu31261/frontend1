@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+
 import Razorpay from 'razorpay-checkout';
 import { useNavigate } from 'react-router-dom';
 

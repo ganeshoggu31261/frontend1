@@ -1,4 +1,4 @@
-  import React, { useState, useEffect } from 'react';
+ 
   import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
   import Home from './Components/Home';
   import About from './Components/About';
@@ -7,20 +7,20 @@
   import Register from './Components/Register';
   import Navbar2 from './Components/Navbar2';
   import Cart from './Components/Cart';
-  // import Profile from './Components/Profile';
+
   import Myorders from './Components/Myorders';
   import Books from './Components/Books';
   import Adminhome from './Components/adminhome';
   import AddBooks from './Components/AddBooks'
   import Users from './Components/Users';
   import Orders from './Components/Orders';
-  import Statistics from './Components/Statistics';
+ 
   import Changepassword from './Components/Changepassword';
   import FeedbackForm from './Components/FeedBack';
 import Address from './Components/Address';
 import ViewBooks from './Components/ViewBook';
 import AdminUser from './Components/AdminUser';
-// import Statisticss from './Components/Statisticss';
+
 
   function App() {
     return (
@@ -38,7 +38,7 @@ import AdminUser from './Components/AdminUser';
             <Route path="/contact" element={<Contact />} />
             <Route path="/navbar2" element={<Navbar2 />} />
             <Route path="/cart" element={<Cart />} />
-            {/* <Route path="/profile" element={<Profile />} /> */}
+           
             <Route path="/myorders" element={<Myorders />} />
             <Route path="/books" element={<Books />} />
             <Route path="/admin-dashboard" element={<Adminhome />} />
@@ -47,7 +47,7 @@ import AdminUser from './Components/AdminUser';
             <Route path="/viewbook" element={<ViewBooks />} />
             <Route path="/users" element={<Users />} />
             <Route path="/orders" element={<Orders />} />
-            <Route path="/statistics" element={<Statistics />} />
+         
             <Route path="/changepassword" element={<Changepassword/>} />
             <Route path="/feedback" element={<FeedbackForm/>} />
             <Route path="/address" element={<Address/>} />
